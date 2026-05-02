@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Full Stack Developer Portfolio - Specializing in AI-powered solutions, blockchain apps, and scalable systems.">
+    <title>Arslan | Full Stack Architect & AI Specialist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Background Grid -->
+    <div class="bg-grid"></div>
+
+    <!-- Scroll Progress Indicator -->
+    <div id="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">ARSLAN<span>.DEV</span></a>
+            
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="https://raw.githubusercontent.com/Arslan-web-Dev/My-projects-picks/main/Arslan-Resume.pdf" class="hero-btn" download>Download CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-bg-glow"></div>
+            <div class="hero-content">
+                <div class="badge-premium fade-up-load">
+                    Available for New Opportunities
+                </div>
+                <h1 class="hero-title fade-up-load delay-1">
+                    Building the Future with <span>AI & Full-Stack</span>
+                </h1>
+                <p class="hero-subtitle fade-up-load delay-2">
+                    Senior Full Stack Architect specializing in high-performance web applications, 
+                    intelligent AI systems, and secure blockchain infrastructure.
+                </p>
+                <div class="hero-btns fade-up-load delay-3">
+                    <a href="#projects" class="btn-primary">View Featured Work</a>
+                    <a href="#contact" class="btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            
+            <div class="hero-scroll-indicator fade-up-load delay-4">
+                <span>SCROLL TO EXPLORE</span>
+                <div class="indicator-line"></div>
+            </div>
+        </section>
+
+        <!-- Bento Intelligence Section -->
+        <section id="about" class="bento-section container reveal-on-scroll">
+            <div class="section-header">
+                <span class="section-badge">INTELLIGENCE</span>
+                <h2 class="section-title">Synthesizing Code & <span class="text-gradient">Intelligence</span></h2>
+            </div>
+
+            <div class="bento-grid">
+                <!-- About Card -->
+                <div class="bento-card bento-about">
+                    <div class="card-content">
+                        <h3>The Architect</h3>
+                        <p>With over 8 years in the digital trenches, I've evolved from a frontend enthusiast to a <strong>Full Stack Architect</strong>. I specialize in building scalable ecosystems where performance meets pixel-perfect design.</p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <span class="stat-num">8+</span>
+                                <span class="stat-label">Years Exp.</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-num">50+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card: Core -->
+                <div id="skills" class="bento-card bento-skills-core">
+                    <div class="card-content">
+                        <div class="icon-box"><img src="https://api.iconify.design/lucide:layers.svg?color=%238b5cf6" alt="Layers"></div>
+                        <h3>Frontend Architecture</h3>
+                        <p>React, Next.js, TypeScript, & High-Performance CSS.</p>
+                        <div class="skill-tags">
+                            <span>React</span> <span>TypeScript</span> <span>Next.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Card: AI -->
+                <div class="bento-card bento-skills-ai">
+                    <div class="card-content">
+                        <div class="icon-box"><img src="https://api.iconify.design/lucide:brain-circuit.svg?color=%233b82f6" alt="AI"></div>
+                        <h3>AI & Intelligence</h3>
+                        <p>Specializing in LLM orchestration, RAG pipelines, and fine-tuning neural models for production environments.</p>
+                        <ul class="skill-list-mini">
+                            <li>Neural Networks</li>
+                            <li>LLM Fine-tuning</li>
+                            <li>Data Pipelines</li>
+                            <li>Vector DBs</li>
+                        </ul>
+                        <div class="progress-mini">
+                            <div class="progress-fill" style="--target-width: 92%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image/Visual Card -->
+                <div class="bento-card bento-image">
+                    <img src="https://raw.githubusercontent.com/Arslan-web-Dev/My-projects-picks/refs/heads/main/personalpicks.png" alt="Arslan" class="bento-img">
+                    <div class="img-overlay"></div>
+                </div>
+
+                <!-- Skill Card: Blockchain -->
+                <div class="bento-card bento-skills-web3">
+                    <div class="card-content">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                            <div>
+                                <div class="icon-box"><img src="https://api.iconify.design/lucide:shield-check.svg?color=%23dfff00" alt="Security"></div>
+                                <h3>Web3 & Security</h3>
+                                <p>Architecting secure DeFi protocols and cryptographic infrastructure with a focus on audit-ready Solidity code.</p>
+                            </div>
+                            <div class="web3-badge">WEB3.0</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA Card -->
+                <div class="bento-card bento-cta">
+                    <div class="card-content">
+                        <h2 class="cta-title">Ready to architect the <span class="text-gradient">next generation?</span></h2>
+                        <p style="margin-bottom: 2rem;">Let's transform your vision into a scalable, high-performance digital ecosystem.</p>
+                        <a href="#contact" class="btn-primary">Inquire Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience container reveal-on-scroll">
+            <h2 class="section-title text-center">My Journey</h2>
+            <div class="timeline">
+                <div class="timeline-line">
+                    <div class="timeline-line-fill"></div>
+                </div>
+                
+                <div class="timeline-item left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021 - Present</span>
+                        <h3>Senior Full Stack Architect</h3>
+                        <p>Leading high-impact AI and E-commerce projects for international clients.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2018 - 2021</span>
+                        <h3>Lead Backend Developer</h3>
+                        <p>Architected scalable microservices and integrated complex AI models into production.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2016 - 2018</span>
+                        <h3>Frontend Developer</h3>
+                        <p>Focused on creating pixel-perfect, accessible, and high-performance user interfaces.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-premium reveal-on-scroll">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">SELECTED WORKS</span>
+                    <h2 class="section-title">Architecting <span class="text-gradient">Impact</span></h2>
+                </div>
+
+                <div class="projects-grid-premium">
+                    <!-- Project 1: AdFlow Pro AI -->
+                    <div class="project-card-premium large">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=2070" alt="AdFlow Pro AI">
+                            <div class="card-tags">
+                                <span>AI</span> <span>NEXT.JS</span>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <h3>AdFlow Pro AI</h3>
+                            <p>Neural network optimized advertising platform with real-time analytics.</p>
+                            <div class="card-footer">
+                                <a href="https://github.com/Arslan-web-Dev/AdFlow-Pro-AI" target="_blank" class="btn-circle">↗</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: AI E-commerce -->
+                    <div class="project-card-premium">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2426" alt="AI E-commerce">
+                        </div>
+                        <div class="card-info">
+                            <h3>AI Shop Architect</h3>
+                            <p>Automated eCommerce generation via market data analysis.</p>
+                            <div class="card-footer">
+                                <a href="#" class="btn-circle">↗</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: CryptoVault -->
+                    <div class="project-card-premium">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=2232" alt="CryptoVault">
+                        </div>
+                        <div class="card-info">
+                            <h3>CryptoVault Pro</h3>
+                            <p>Secure biometric infrastructure for decentralized finance.</p>
+                            <div class="card-footer">
+                                <a href="https://github.com/Arslan-web-Dev/cryptovault-app" target="_blank" class="btn-circle">↗</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Web2App -->
+                    <div class="project-card-premium">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=2070" alt="Web2App">
+                        </div>
+                        <div class="card-info">
+                            <h3>Web2App Engine</h3>
+                            <p>Converting web ecosystems into high-performance native apps.</p>
+                            <div class="card-footer">
+                                <a href="https://github.com/Arslan-web-Dev/Muhammad-arslanWeb2App-Pro" target="_blank" class="btn-circle">↗</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5: Students Portal -->
+                    <div class="project-card-premium">
+                        <div class="card-image">
+                            <img src="https://raw.githubusercontent.com/Arslan-web-Dev/My-projects-picks/refs/heads/main/sutdentprotal.png" alt="Students Portal">
+                        </div>
+                        <div class="card-info">
+                            <h3>Academic Cloud</h3>
+                            <p>Enterprise student management system with secure data flows.</p>
+                            <div class="card-footer">
+                                <a href="https://github.com/Arslan-web-Dev/My_Students_portal-" target="_blank" class="btn-circle">↗</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-premium container reveal-on-scroll">
+            <div class="contact-grid">
+                <div class="contact-text">
+                    <span class="section-badge">CONTACT</span>
+                    <h2 class="section-title">Let's build the <span class="text-gradient">Future</span></h2>
+                    <p>I'm always open to discussing high-impact projects, creative partnerships, or technical architecture consultations.</p>
+                    
+                    <div class="social-links-premium">
+                        <a href="#" class="social-icon">LI</a>
+                        <a href="#" class="social-icon">GH</a>
+                        <a href="#" class="social-icon">TW</a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form-premium" id="contact-form">
+                        <div class="input-row">
+                            <div class="input-group-premium">
+                                <input type="text" id="name" placeholder="Name" required>
+                            </div>
+                            <div class="input-group-premium">
+                                <input type="email" id="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="input-group-premium">
+                            <textarea id="message" rows="4" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary submit-btn">Transmit Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-premium">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">ARSLAN<span>.DEV</span></a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2026 ARSLAN.DEV | Architecture for the next era.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#projects">Work</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
